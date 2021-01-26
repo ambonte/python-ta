@@ -51,7 +51,7 @@ class Test(unittest.TestCase):
         """
         input = "in girum imus nocte et consumimur igni"
         output = app.solution(input)
-        self.assertEqual(output, True)
+        self.assertEqual(output, False)
 
     def test_case5(self):
         "Testcase 5"
